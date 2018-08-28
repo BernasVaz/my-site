@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+
+	<p>How many finger am I holding up	?</p>
+
+	<input type="text" id="inputText">
+
+	<p><button id="cta">Apply</button></p>
+
+	<script type="text/javascript">
+
+		document.getElementById("cta").onclick = function() {
+
+			var inputText = document.getElementById("inputText").value;
+
+			var magicWord = "Bernardo";
+
+			if (inputText == magicWord) {
+
+				alert("AMAZING!!");
+
+			} else {
+
+				alert("Wrong Magic Word! Try again!")
+
+			}
+
+		}
+
+	</script>
+
+</body>
+</html>
